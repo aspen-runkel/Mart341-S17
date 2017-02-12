@@ -25,4 +25,4 @@
 
   Considering I was struggling as much as many of my fellow classmates during this week’s homework, I was not much help.  I think the [issues tracker](https://github.com/Montana-Media-Arts/341-work/issues) will be something we will all have to get the hang of together to effectively ask questions and provide help.
 
-  ![Image of my editor](screenshot-of-my-editor.jpg)
+  ![Image of my editor](screenshot-of-my-editor.png)
