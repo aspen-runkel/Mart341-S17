@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mart 341: Week 5 Questionaire</title>
+</head>
+
+<body>
+  <a href="http://www.umt.edu/">
+    <img src="images/UM-Main-Logo-Maroon.jpg" alt="University of Montana Main Logo" title="Click for link to UM Website!" width="480" height="91" >
+  </a>
+  <h1>Student Questionaire
+  </h1>
+
+  <form class="UM-form" action="mailto:aspen.runkel@umconnect.umt.edu" method="get">
+
+    <fieldset>
+      <legend>About You</legend>
+      <label> 1. Name:
+        <input type="text" name="name" placeholder="First and Last Name" autofocus required>
+      </label>
+    <br />
+      <label> 2. Email:
+        <input type="email" name="email" placeholder="example@me.com" required>
+      </label>
+    <br />
+      <label>3. Age: <input type="text" name="age" placeholder="22" /></label>
+      <br />
+      <label> 4. Gender:
+      <input type="radio" name="gender" value="Male"> Male
+      <input type="radio" name="gender" value="Female"> Female
+      </label>
+    </fieldset><br />
+
+    <fieldset>
+      <label>5. Please select your year in school:</label>
+      <select name="year">
+        <option value="freshman (1st Year)">freshman (1st year)</option>
+        <option value="sophomore (2nd Year)">sophomore (2nd year)</option>
+        <option value="junior (3rd Year)">junior (3rd year)</option>
+        <option value="senior (4th Year)">senior (4th year)</option>
+        <option value="graduate">graduate</option>
+      </select>
+    </fieldset><br />
+
+    <fieldset>
+      <label> 6. What are you majoring in?
+        <input type="text" name="major" size="35" placeholder="ex. Business Administration - Marketing">
+      </label>
+    </fieldset><br />
+
+    <fieldset>
+      <label>7. What college do/did you attend?
+        <br />
+        <input type="radio" name="college" value="University of Montana" /> University of Montana <br />
+        <input type="image" src="images/UniversityofMontana.jpg" alt="University of Montana Campus" title="University of Montana Campus" width="266" height="174" /> <br />
+        <input type="radio" name="college" value="Missoula College" /> Missoula College <br />
+        <input type="image" src="images/MissoulaCollege.jpg" alt="Missoula College Campus" title="Missoula College Campus" width="310" height="133" /> <br />
+        <input type="radio" name="college" value="Other" /> Other
+          <input type="text" name="transportation" placeholder="Uber, etc." />
+        </label>
+    </fieldset><br />
+
+    <fieldset>
+      <label> 8. Please select all form(s) of Transportation that you utilize:</label>
+        <br />
+        <input type="checkbox" name="transportation" value="personal vehicle" /> personal vehicle <br />
+        <input type="checkbox" name="transportation" value="bike" /> bike <br />
+        <input type="checkbox" name="transportation" value="bus" /> bus <br />
+        <input type="checkbox" name="transportation" value="personal vehicle" /> personal vehicle <br />
+        <input type="checkbox" name="transportation" value="other" /> other
+          <input type="text" name="transportation" placeholder="Uber, etc." />
+    </fieldset><br />
+
+    <fieldset>
+      <label> 9. Please list anyting else you would like to share about yourself:</label><br />
+      <textarea name="extra-info" cols="60" rows="5">Ex. Hobbies, interests, etc. </textarea>
+    </fieldset><br />
+
+    <img src="images/thank-you.gif" alt="Thank You" title="Thank You" width="175" height="175" />
+    <p>You input is appreciated!</p>
+    <input type="submit" value="Submit" />
+
+  </form>
+</body>
+
+<html>
