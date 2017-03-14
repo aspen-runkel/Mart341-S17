@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Aspen Runkel">
+    <meta name="description" content="Quesadilla's for everyone!">
+    <title>Quesadilla Time</title>
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>Quesadilla Time</h1>
+      <img src="images/quesadilla-header.jpg" alt="A tasty quesadilla!" title="A tasty quesadilla filled with cheese, a protein, and our choice of other filling." width="205" height="154"/><br />
+      <br />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="self-video.html">How to Prepare a Quesadilla</a></li>
+        <li><a href="youtube-video.html">Quesadillas 4 Ways</a></li>
+        <li><a href="questionaire.html">Quesadilla Quiz</a></li>
+        <li><a href="contact.html">Contact the Chef</a></li>
+      </ul>
+    </div><!-- end header -->
+      <hr />
+
+      <div id="form">
+        <h1>Quesadilla Quiz</h1>
+
+        <form class="quesadilla-form" action="mailto:aspen.runkel@umconnect.umt.edu" method="get">
+
+          <fieldset>
+            <legend>About You</legend>
+            <label> 1. Name:
+              <input type="text" name="name" placeholder="First and Last Name" autofocus required>
+            </label>
+          <br />
+            <label> 2. Email:
+              <input type="email" name="email" placeholder="example@me.com" required>
+            </label>
+          </fieldset><br />
+
+          <fieldset>
+            <label>3. Please select your skill level at cooking:</label>
+            <select name="skill-level">
+              <option value="beginner">beginner</option>
+              <option value="intermediate">intermediate</option>
+              <option value="expert">expert</option>
+            </select>
+          </fieldset><br />
+
+          <fieldset>
+            <label> 4. Please select all other foods you enjoy:</label>
+              <br />
+              <input type="checkbox" name="food" value="burrito" /> burrito <br />
+              <input type="checkbox" name="food" value="taco" /> taco <br />
+              <input type="checkbox" name="food" value="enchillada" /> enchillada <br />
+              <input type="checkbox" name="food" value="other" /> other
+              <input type="text" name="food" placeholder="salad, etc." />
+          </fieldset><br />
+
+          <fieldset>
+            <label> 5. Please list anyting you like to eat in quesadillas:</label><br />
+            <textarea name="quesadilla-filling" cols="60" rows="5">Ex. cheese, chicken, beef, green peppers, etc. </textarea>
+          </fieldset><br />
+
+          <img src="images/thank-you.gif" alt="Thank You" title="Thank You" width="175" height="175" />
+          <p>You input will help us find awesome recipes just for you!</p>
+          <input type="submit" value="Submit" />
+        </form>
+      </div><!-- end of form -->
+      <hr />
+
+    <div id="footer">
+        <h2>It's ALWAYS quesadilla time!</h2>
+        <img src="images/quesadilla-footer.jpg" alt="Another tasty quesadilla!" title="Another tasty quesadilla filled with all your favorites!" width="500" height="375"
+        <br />
+        <p> Contact me for more on quesadillas!</p>
+        <address>
+          <p><a href="mailto:aspen.runkel@umconnect.umt.edu"> aspen.runkel@umconnect.umt.edu</a></p>
+          <p>(406)222-4680
+          <p>123 Quesadilla Rd., Quesadilla, MX 45678</p>
+        </address>
+    <div><!-- end footer -->
+  </body>
+</html>
