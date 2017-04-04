@@ -1,0 +1,38 @@
+body {font-family: dosis;
+  font-size: 1.5em;
+  color: #000000;
+  text-align: center;
+  line-height: 1.45em;
+  letter-spacing: normal;
+  word-spacing: normal;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #009cff;
+  padding: 100px;}
+
+h1 {font-family: cookie;
+  font-size: 4em;
+  color: #780080;
+  text-transform: capitalize;}
+h1:hover {color: #009cff}
+h2 {font-family: cookie;
+  font-size: 3em;
+  color: #c9009d;}
+h2:hover {color: #009cff}
+
+#first-letter::first-letter {font-size: 3em;
+  color: #0fbd00;}
+#author {font-family: ;
+  font-size: 1.25em;
+  color: #c9009d;
+  font-style: italic;
+  line-height: 1.45em;
+  letter-spacing: normal;
+  word-spacing: normal;
+  border-style: solid;
+  border-width: 5px
+  border-color: #780080;
+  padding: 100px;}
+
+#little-emphasis, #immediately-emphasis, #exactly-emphasis, #how-emphasis {color: #0fbd00; font-weight: bold;}
