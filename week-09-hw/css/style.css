@@ -1,0 +1,90 @@
+h1 {font-family: pacifico;
+  font-size: 3.5em;
+  color: #c90404;
+  text-align: center;}
+h2 {font-family: cabin;
+  font-size: 3em;
+  color: #03812e;}
+h3 {font-family: cabin;
+  font-size: 2em;
+  color: #d27e00;}
+h4 {font-family: cabin;
+  font-size: 1.5em;
+  color: #d27e00;}
+
+body {font-family: cabin;
+  font-size: 1.5em;
+  color: #000000;
+  text-align: center;
+  line-height: 1.45em;
+  letter-spacing: normal;
+  word-spacing: normal;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #03812e;}
+body {width: 98%;
+  height: ;
+  margin: 10px;
+  padding: 0px;}
+
+#content {width: 90%;
+  height: ;}
+
+#recipe {float: left;
+    width: 45%;
+    height: ;
+    margin: 10px;}
+#chef-bio {float: right;
+    width: 45%;
+    height: ;
+    margin: 10px}
+
+header {margin: 0;
+    padding: 0;}
+.menu-container {background-color: #d27e00;
+      margin: 0;
+      padding: 0;}
+.menuitem {display: inline-block;
+      padding: 1em;
+      text-align: center;
+      text-decoration: none;
+      color: #c90404;}
+.menuitem:hover, .dropdown:hover {
+      color: #ffffff;
+      background-color: #03812e;}
+.dropdown {display: inline-block;
+      width: 10%;
+      min-width: 100px;}
+.dropdown-content {display: none;
+      position: absolute;
+      border: 1px solid #000;
+      margin: 0;
+      color: #c90404;
+      background-color: #fff;
+      z-index: 1;}
+.dropdown-content a {color: #000;
+      text-decoration: none;}
+.dropdown:hover .dropdown-content {
+      display: block;}
+.dropdown-item {display: block;
+      text-align: center;
+      margin: 0;
+      padding: 0.5em;
+      min-width: 7em;}
+.dropdown-item:hover, .dropdown-item:hover a {
+      color: #fff;
+      background-color: #03812e;}
+
+footer {font-family: cabin;
+    font-size: .75em;
+    text-align: center;
+    color: #c90404;
+    line-height: 1.45em;
+    letter-spacing: normal;
+    word-spacing: normal;
+    background-color: #d27e00;
+    width: 100%;
+    height: ;
+    margin: 0;
+    padding: 0;}
